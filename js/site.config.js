@@ -54,7 +54,7 @@ window.SITE = {
 
   projects: {
     heading: "Technical Projects",
-    intro: "Six documented projects across CFD, thermal analysis, aircraft design and mechanical CAD.",
+    intro: "Seven documented projects across CFD, thermal analysis, aircraft design and mechanical CAD.",
     items: [
       {
         id: "icmtc-aircraft",
@@ -73,7 +73,28 @@ window.SITE = {
           "Toolchain: Flow5, SolidWorks, Ansys Fluent"
         ],
         links: [
+          { label: "Full report (PDF)", url: "assets/projects/icmtc-aircraft/report.pdf" },
           { label: "LinkedIn post", url: "https://www.linkedin.com/posts/ahmad-el-shazly_icmtc-xflr5-flow5-ugcPost-7463213077958860800-U32G" }
+        ]
+      },
+      {
+        id: "wing-optimization",
+        title: "Low-Reynolds Wing Optimization",
+        org: "Independent study",
+        year: "2026",
+        role: "Aerodynamics Analysis",
+        tags: ["Aerodynamics", "CFD"],
+        cover: "assets/projects/wing-optimization/cover.webp",
+        summary:
+          "Optimisation of a low-Reynolds-number wing's spanwise lift distribution — trading lift for induced-drag reduction across the span.",
+        highlights: [
+          "Spanwise lift distribution shaped to cut induced drag",
+          "Low-Reynolds aerodynamics where laminar separation matters",
+          "Polar and loading comparisons between candidate distributions",
+          "Full written report with figures and analysis"
+        ],
+        links: [
+          { label: "Full report (PDF)", url: "assets/projects/wing-optimization/report.pdf" }
         ]
       },
       {
@@ -93,6 +114,7 @@ window.SITE = {
           "Mach distribution and pressure profile along the duct"
         ],
         links: [
+          { label: "Full report (PDF)", url: "assets/projects/rocket-nozzle/report.pdf" },
           { label: "LinkedIn post", url: "https://www.linkedin.com/posts/ahmad-el-shazly_ansys-cfd-simulation-ugcPost-7349146564868636672-PABc" }
         ]
       },
