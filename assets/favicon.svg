@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#123152"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <path d="M6 44c14-10 26 6 40-4 6-4 10-12 12-18" fill="none" stroke="#06b6d4" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <path d="M4 54c16-8 28 4 42-6 5-4 8-10 10-16" fill="none" stroke="#2563eb" stroke-width="2.4" stroke-linecap="round" opacity=".7"/>
+  <text x="32" y="36" font-family="Lato, Arial, sans-serif" font-size="26" font-weight="900" fill="#ffffff" text-anchor="middle">AE</text>
+</svg>
